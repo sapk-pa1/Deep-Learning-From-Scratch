@@ -35,7 +35,7 @@ def chain_length_2(chain: Chain,
         ndarray: output from appling the input to the chain of functions 
     """
     assert len(chain) ==2 
-    # Length of the cchain shoud be 2 
+    # Length of the chain shoud be 2 
 
     f1 = chain[0]
     f2= chain[1]
